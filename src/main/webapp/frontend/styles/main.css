@@ -1,0 +1,793 @@
+body {
+  background-color: #FFFFFF;
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
+}
+
+.navbar-brand h1 {
+  display: inline;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.navbar-brand small {
+  font-size: 0.7em;
+  font-weight: lighter;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+.btn-navbar-right {
+  margin-top: -8px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 80px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #FFFFFF;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.btn-login:hover {
+  background-color: #1E3771;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -80px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+
+header h1,
+header p {
+  color: #FFFFFF;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #FF9E53;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+header .btn-get-started:hover {
+  background-color: #FFAA69;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #FFFFFF;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2,
+.section-popular .section-popular-heading p {
+  color: #FFFFFF;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #DDDDDD;
+  color: #FFFFFF;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-country {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-location {
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details {
+  background-color: #FF9E53;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details:hover {
+  background-color: #FFAA69;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.section-networks {
+  background-color: #FFFFFF;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-networks h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-networks p {
+  font-size: 18px;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F7F9FF));
+  background: linear-gradient(#FFFFFF 0%, #F7F9FF 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+
+.section-testimonial-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-testimonial-heading p {
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-weight: 200;
+  font-size: 26px;
+  color: #6e6e6e;
+  min-height: 160px;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .btn-need-help {
+  background-color: #F2F2F2;
+  color: #C3C3C3;
+  font-weight: lighter;
+}
+
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #FAFAFA;
+  color: #C3C3C3;
+  font-weight: normal;
+}
+
+.section-testimonial-content .btn-get-started {
+  background-color: #FF9E53;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+.section-testimonial-content .btn-get-started:hover {
+  background-color: #FFAA69;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.section-footer a {
+  color: #071C4D;
+}
+
+.section-footer .copyright {
+  color: #6E6E6E;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background-color: #E4E6EB;
+  margin-top: -80px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071C4D;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #B1B1B1;
+  text-align: justify;
+}
+
+.section-details-content .card-details .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .card-details .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .card-details .gallery .xzoom-container .xactive {
+  border: 4px solid #1ABC9C;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .card-details .features {
+  margin-top: 20px;
+}
+
+.section-details-content .card-details .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .card-details .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .card-details .features h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .features p {
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .member .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-content .card-details .trip-information th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071C4D;
+}
+
+.section-details-content .card-details .trip-information td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .join-container .btn-join-now {
+  background-color: #FF9E53;
+  color: #FFFFFF;
+  font-weight: normal;
+  border-radius: 0;
+}
+
+.section-details-content .join-container .btn-join-now:hover {
+  background-color: #FFAA69;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.section-checkout-header {
+  min-height: 310px;
+  background-color: #E4E6EB;
+  margin-top: -80px;
+}
+
+.section-checkout-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-checkout-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-checkout-content .breadcrumb .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071C4D;
+}
+
+.section-checkout-content .card-checkout {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-checkout-content .card-checkout h1 {
+  font-size: 26px;
+}
+
+.section-checkout-content .card-checkout h2 {
+  font-size: 20px;
+}
+
+.section-checkout-content .card-checkout h3 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #071C4D;
+}
+
+.section-checkout-content .card-checkout p {
+  font-size: 18px;
+  color: #B1B1B1;
+  text-align: justify;
+}
+
+.section-checkout-content .card-checkout .member .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-checkout-content .card-checkout .member .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-checkout-content .card-checkout .member .btn-add-now {
+  background-color: #071C4D;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+.section-checkout-content .card-checkout .member .btn-add-now:hover {
+  background-color: #1B3B86;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.section-checkout-content .card-checkout .member .disclaimer {
+  font-size: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.section-checkout-content .card-checkout .checkout-information th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071C4D;
+}
+
+.section-checkout-content .card-checkout .checkout-information td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.section-checkout-content .card-checkout .checkout-information .text-blue {
+  color: #071C4D;
+  font-weight: bold;
+}
+
+.section-checkout-content .card-checkout .checkout-information .text-orange {
+  color: #FF9E53;
+  font-weight: bold;
+}
+
+.section-checkout-content .card-checkout .payment-instruction {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.section-checkout-content .card-checkout .bank .bank-item h3 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+
+.section-checkout-content .card-checkout .bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.section-checkout-content .card-checkout .bank .bank-item .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-checkout-content .card-checkout .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-checkout-content .card-checkout .bank .bank-item .description p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #071C4D;
+}
+
+.section-checkout-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.section-checkout-content .made-payment-container {
+  margin-top: -16px;
+}
+
+.section-checkout-content .made-payment-container .btn-made-payment {
+  background-color: #FF9E53;
+  color: #FFFFFF;
+  font-weight: normal;
+  border-radius: 0;
+}
+
+.section-checkout-content .made-payment-container .btn-made-payment:hover {
+  background-color: #FFAA69;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.section-checkout-content .cancel-container .btn-cancel {
+  color: #BFBFBF;
+  font-weight: normal;
+}
+
+.section-checkout-content .cancel-container .btn-cancel:hover {
+  font-weight: bold;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071C4D;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #071C4D;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #1E3771;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.section-travel-header {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -80px;
+  margin-bottom: -230px;
+}
+
+.section-travel-header .section-travel-heading {
+  margin-top: 150px;
+}
+
+.section-travel-header .section-travel-heading h2,
+.section-travel-header .section-travel-heading p {
+  color: #FFFFFF;
+}
+
+.section-travel-header .section-travel-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-travel-header .section-travel-heading p {
+  font-size: 18px;
+}
+
+.section-travel-content .section-travel-list .card-travel-list {
+  min-height: 380px;
+  background-color: #DDDDDD;
+  color: #FFFFFF;
+  padding: 0;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-travel-content .section-travel-list .card-travel-list .travel-country {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: -380px;
+  padding-top: 30px;
+}
+
+.section-travel-content .section-travel-list .card-travel-list .travel-location {
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+.section-travel-content .section-travel-list .card-travel-list .travel-button {
+  margin-bottom: 30px;
+}
+
+.section-travel-content .section-travel-list .card-travel-list .travel-button .btn-travel-details {
+  background-color: #FF9E53;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+.section-travel-content .section-travel-list .card-travel-list .travel-button .btn-travel-details:hover {
+  background-color: #FFAA69;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.section-about-header {
+  min-height: 380px;
+  background-color: #051334;
+  margin-top: -80px;
+  margin-bottom: -230px;
+}
+
+.section-about-header .section-about-heading {
+  margin-top: 150px;
+}
+
+.section-about-header .section-about-heading h2,
+.section-about-header .section-about-heading p {
+  color: #FFFFFF;
+}
+
+.section-about-header .section-about-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-about-header .section-about-heading p {
+  font-size: 18px;
+}
+
+.section-about-content .section-left .card-about {
+  min-height: 380px;
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-about-content .section-left .card-about h1 {
+  font-size: 26px;
+}
+
+.section-about-content .section-left .card-about h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.section-about-content .section-left .card-about h3 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #071C4D;
+}
+
+.section-about-content .section-left .card-about p {
+  font-size: 18px;
+  color: #B1B1B1;
+  text-align: justify;
+}
+
+.section-about-content .section-left .card-about .about-information th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071C4D;
+}
+
+.section-about-content .section-left .card-about .about-information td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.section-about-content .section-right h2 {
+  color: #071C4D;
+  font-size: 20px;
+}
+
+.section-about-content .section-right #map {
+  width: 100%;
+  height: 345px;
+}
+
+@media (min-width: 992px) {
+  .login-container {
+    background: -webkit-gradient(linear, left top, right top, color-stop(60%, #FFFFFF), color-stop(40%, #E4E6EB));
+    background: linear-gradient(90deg, #FFFFFF 60%, #E4E6EB 40%);
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.login-container .page-login {
+  height: 100vh;
+}
+
+.login-container .page-login .section-left a {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 50px;
+  text-align: left;
+  color: #071c4d;
+}
+
+.login-container .page-login .section-right .login-title {
+  text-align: center;
+}
+
+.login-container .page-login .section-right .login-title a {
+  font-family: "Playfair Display";
+  text-decoration: none;
+  color: #071C4D;
+}
+
+.login-container .page-login .section-right .login-title a h1 {
+  display: inline;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.login-container .page-login .section-right .login-title a small {
+  font-size: 0.7em;
+  font-weight: lighter;
+}
+
+.login-container .page-login .section-right .login-title a:hover h1 {
+  font-weight: bold;
+}
+
+.login-container .page-login .section-right .login-title a:hover small {
+  font-weight: normal;
+}
+
+.login-container .page-login .section-right a {
+  font-family: Assistant;
+  font-weight: 300;
+  text-decoration: underline;
+  font-size: 16px;
+  text-align: center;
+  color: #bfbfbf;
+}
+
+.login-container .page-login .section-right a:hover {
+  font-weight: bold;
+}
+
+.login-container .page-login .section-right .btn-login {
+  background-color: #FF9E53;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+.login-container .page-login .section-right .btn-login:hover {
+  background-color: #FFAA69;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */

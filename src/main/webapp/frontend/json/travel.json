@@ -1,0 +1,58 @@
+[
+    {
+        "id":"1",
+        "img" : "popular-1.jpg",
+        "country" : "INDONESIA",
+        "location" : "DERATAN, BALI",
+        "viewDetails" : "View Details"
+    },
+    {
+        "id":"2",
+        "img" : "popular-2.jpg",
+        "country" : "INDONESIA",
+        "location" : "BROMO, MALANG",
+        "viewDetails" : "View Details"
+    },
+    {
+        "id":"3",
+        "img" : "popular-3.jpg",
+        "country" : "INDONESIA",
+        "location" : "NUSA PENIDA",
+        "viewDetails" : "View Details"
+    },
+    {
+        "id":"4",
+        "img" : "popular-4.jpg",
+        "country" : "MIDDLE EAST",
+        "location" : "DUBAI",
+        "viewDetails" : "View Details"
+    },
+    {
+        "id":"5",
+        "img" : "popular-5.jpg",
+        "country" : "INDONESIA",
+        "location" : "SERIBU ISLAND",
+        "viewDetails" : "View Details"
+    },
+    {
+        "id":"6",
+        "img" : "popular-6.jpg",
+        "country" : "INDONESIA",
+        "location" : "DEWATA BEACH",
+        "viewDetails" : "View Details"
+    },
+    {
+        "id":"7",
+        "img" : "popular-7.jpg",
+        "country" : "INDONESIA",
+        "location" : "KRAKATAU MT.",
+        "viewDetails" : "View Details"
+    },
+    {
+        "id":"8",
+        "img" : "popular-8.jpg",
+        "country" : "INDONESIA",
+        "location" : "DUNIA FANTASI",
+        "viewDetails" : "View Details"
+    }
+]
